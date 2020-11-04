@@ -15,9 +15,33 @@ public class Ejemplo04 {
     public static void main(String[] args) {
         //ingresar datos por teclado
         // uso de la clase Scanner
-        Scanner entrada = new Scanner(Sistem.in);
-        String ;
-        String ;
-        String ;
+        Scanner entrada = new Scanner(System.in);
+        String nombres;
+        String apellidos;
+        String ciudadnacimiento;
+        String paisnacimiento;
+        String añonacimiento;
+        
+        System.out.println("Por favor, ingrese sus nombres completos;");
+        nombres = entrada.nextLine();
+        
+        System.out.println("Por favor, ingrese sus apellidos completos;");
+        apellidos = entrada.nextLine();
+        
+        System.out.println("Por favor, ingrese su ciudad de nacimiento;");
+        ciudadnacimiento = entrada.nextLine();
+        
+        System.out.println("Por favor, ingrese su país de nacimiento;");
+        paisnacimiento = entrada.nextLine();
+        
+        System.out.println("Por favor, ingrese su año de nacimiento;");
+        añonacimiento = entrada.nextLine();
+        
+        System.out.printf("Sus datos personales:\n%s %s\n%s-%s\n%s\n",
+                nombres,
+                apellidos,
+                ciudadnacimiento,
+                paisnacimiento,
+                añonacimiento);
     }
 }
