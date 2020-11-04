@@ -13,8 +13,11 @@ import java.util.Scanner;
  */
 public class Ejemplo04 {
     public static void main(String[] args) {
-        string 
-                
+        //ingresar datos por teclado
+        // uso de la clase Scanner
         Scanner entrada = new Scanner(Sistem.in);
+        String ;
+        String ;
+        String ;
     }
 }
