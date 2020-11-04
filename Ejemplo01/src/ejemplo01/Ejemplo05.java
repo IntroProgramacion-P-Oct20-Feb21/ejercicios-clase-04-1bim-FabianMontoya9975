@@ -16,7 +16,7 @@ public class Ejemplo05 {
         String apellidoEstudiante = "Montoya Montoya";
         int nacimiento = 2002;
         
-        System.out.println(nombreEstudiante+"\n"+apellidoEstudiante+ "\n"+ nacimiento);   
-        System.out.println(nombreEstudiante+"\t"+apellidoEstudiante);   
+        System.out.println(nombreEstudiante+"\n\n"+apellidoEstudiante+ "\n\n"+ nacimiento);   
+        System.out.println(nombreEstudiante+"\t\t"+apellidoEstudiante);   
     }
 }

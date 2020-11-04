@@ -5,10 +5,16 @@
  */
 package ejemplo02;
 
+import java.util.Scanner;
+
 /**
  *
  * @author josef
  */
 public class Ejemplo04 {
-    
+    public static void main(String[] args) {
+        string 
+                
+        Scanner entrada = new Scanner(Sistem.in);
+    }
 }
